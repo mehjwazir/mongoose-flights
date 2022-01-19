@@ -2,12 +2,28 @@ body {
   padding: 50px;
   font-size: 20px;
   font-family: 'Barlow Condensed', sans-serif;
-  background-color: lightgray;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+a {
+  color: #00B7FF;
+}
+
+nav {
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+}
+
+#button {
+  margin-top: 1vmin;
+  padding: 1vmin;
+  border-radius: 5px;
 }
 
 h1 {
@@ -18,46 +34,4 @@ h2 {
   padding: 2vmin;
   margin: 2vmin;
   font-weight: bold;
-}
-
-a {
-  color: #00B7FF;
-}
-
-nav {
-  align-items: center;
-  border-radius: 5px;
-}
-
-.navbar-nav {
-  padding: 2vmin;
-}
-
-#button {
-  margin-top: 1vmin;
-  padding: 1vmin;
-  border-radius: 5px;
-}
-
-#button:hover {
-  background-color: gray;
-}
-
-thead {
-  text-align: center;
-}
-
-td {
-  text-align: center;
-  width: 500px;
-}
-
-.destForm,
-.bookFlight {
-  display: flex;
-  flex-direction: column;
-}
-
-.flightList {
-  font-size: 16px;
 }
